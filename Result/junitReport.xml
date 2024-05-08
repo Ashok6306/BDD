@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="16.034" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Validating SauceDemo website" name="Validating Login, Add to cart functionality before and after adding product, logout" time="15.78">
+<system-out><![CDATA[
+Given User launches website.................................................passed
+When User login and validates login.........................................passed
+And User adds products to cart and validate the cart........................passed
+And User removes two items and re-validates the cart........................passed
+When User Checks out and validate the checkout..............................passed
+Then user logout and validate logout........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
